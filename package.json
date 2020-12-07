@@ -34,5 +34,10 @@
     "react-script-tag": "^1.1.2",
     "rehype-react": "^3.0.2",
     "sprintf-js": "^1.1.2"
+  },
+  "engines": {
+    "node": "12.18.0",
+    "npm": "6.14.4",
+    "yarn": "1.19.1"
   }
 }
