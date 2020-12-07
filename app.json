@@ -1,0 +1,6 @@
+{
+  "buildpacks": [
+    {"heroko-postbuild":"gatbsy build"},
+    {"url": "https://github.com/heroku/heroku-buildpack-static"}
+  ]
+}
