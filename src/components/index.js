@@ -4,6 +4,7 @@ import SectionContent from './SectionContent';
 import SectionHero from './SectionHero';
 import SectionPosts from './SectionPosts';
 import Layout from './Layout';
+import Universities from './Universities';
 
 export {
     Footer,
@@ -11,7 +12,8 @@ export {
     SectionContent,
     SectionHero,
     SectionPosts,
-    Layout
+    Layout,
+    Universities,
 };
 
 export default {
@@ -20,5 +22,6 @@ export default {
     SectionContent,
     SectionHero,
     SectionPosts,
-    Layout
+    Layout,
+    Universities,
 };

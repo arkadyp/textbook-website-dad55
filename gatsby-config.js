@@ -28,6 +28,14 @@ module.exports = {
                 sourceUrlPath: `fields.url`,
                 pageContextProperty: `menus`,
             }
+        },
+         {
+      resolve: `gatsby-plugin-manifest`,
+        options: {
+            start_url: "/",
+            icon: "static/images/favicon.png",
+            crossOrigin: `use-credentials`,
+        },
         }
     ]
 };

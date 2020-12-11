@@ -1,61 +1,49 @@
 ---
-title: Home
+template: advanced
 sections:
   - section_id: hero
     type: section_hero
-    title: Hello zalima!!!
-    subtitle: '### You are a goddess'
-    image: images/avatar.png
-  - title: Text
+    title: "Multi-University Bioinformatics Class"
+    subtitle: "Winter 2021"
+    image: images/textbook.jpg
+
+  - title: Intro
     section_id: intro
     type: section_content
     content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla orci diam,
-      elementum consectetur elit non, tempus varius leo. In ut bibendum mauris.
-      Vestibulum mattis pharetra enim. Maecenas ornare vulputate nisi sed
-      condimentum. Fusce sit amet cursus nunc. Vivamus malesuada posuere mollis.
-      Aliquam facilisis neque eget ligula aliquam consequat.
+      The textbook
+      <a target="_blank" class="animated-link" href="https://www.bioinformaticsalgorithms.org/">Bioinformatics Algorithms: an Active Learning Approach</a>
+      has now
+      been adopted by
+      <a target="_blank" class="animated-link" href="https://bioalgorithms.ucsd.edu/pubs_books.html">140+ instructors from 40+ countries</a>.
+      Since all these instructors cover similar
+      materials, we have decided to launch a multi-university bioinformatics class that will bring
+      multiple instructors together to enhance the educational experience of students across all
+      participating universities and to facilitate the exchange of the course materials and pedagogical
+      ideas between various instructors.
 
-      ### This is an H3. Use it for subheads and subsections.
+  - type: universities
+    images:
+      - "images/carnegie-mellon.png"
+      - "images/johns-hopkins.png"
+      - "images/princeton.png"
+      - "images/temp.png"
+      - "images/ucsd.png"
 
-      Donec malesuada, augue eu blandit porta, metus metus auctor leo, non
-      dapibus felis odio non tortor. Mauris sem orci, tristique eget [this is an
-      inline link](#) placerat non, eleifend tempor dolor. Quisque sed nisl
-      elit. Praesent pulvinar id urna quis cursus. In hac habitasse platea
-      dictumst. Mauris sed odio magna. Duis felis turpis, posuere at erat nec,
-      condimentum luctus nibh. Nam leo ante, tempor ut tellus vel, lacinia
-      aliquam velit. Mauris ut purus in nisl suscipit feugiat.
-
-      Pellentesque tempor aliquet dolor, ac consectetur lorem ornare id.
-      Vestibulum sit amet facilisis elit, sit amet rhoncus felis. Nunc rhoncus
-      porttitor sollicitudin. Quisque eu leo metus. Curabitur gravida nibh eu
-  - title: Recent Posts
-    section_id: posts
-    type: section_posts
-    has_more_link: true
-    more_link_text: Read more
-  - title: A Cat
-    section_id: cat
+  - title: Universities
+    section_id: universities
     type: section_content
     image: images/art.svg
     content: >-
-      Hi this is my text and image block. Vis accumsan feugiat adipiscing nisl
-      amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus
-      aliquet placerat commodo.
-
-      Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a
-      in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia
-      ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum
-      massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan
-      euismod nunc adipiscing lacinia erat ut sit. Arcu amet.
-
-      Id massa aliquet arcu accumsan lorem amet accumsan.
-
-
-      Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a
-      in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia
-      ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum
-      massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan
-      euismod nunc adipiscing lacinia erat ut sit. Arcu amet.
-template: advanced
+      In Winter 2021, the multi-university class will include classes at Carnegie Mellon University, Johns
+      Hopkins University, Princeton University, Saint Petersburg University, and University of
+      California at San Diego. Each class at these universities will be completely independent with its
+      own schedule, policies, HWs, exams, and grading. However, students in each class will be
+      offered an opportunity to use various materials in the multi-university class as specified by the
+      individual instructors. The multi-university class will use the
+      <a target="_blank" class="animated-link" href="https://us.edstem.org/">Ed Digital Learning platform</a>
+      to
+      facilitate communication between students and instructors from various universities. For
+      example, if you decide to post a question on Ed, it can be answered by a student or a professor
+      from other universities.
 ---

@@ -1,7 +1,7 @@
 {
-    "description": "A vanilla theme for Stackbit",
+    "description": "Homepage for multi-university bioinformatics class",
     "header": {
-        "title": "Stackbit Vanilla",
+        "title": "Multi-University Bioinformatics",
         "has_nav": true,
         "nav_links": [
             {
@@ -9,16 +9,8 @@
                 "url": "/"
             },
             {
-                "label": "Generic",
+                "label": "About Us",
                 "url": "/generic/"
-            },
-            {
-                "label": "Elements",
-                "url": "/elements/"
-            },
-            {
-                "label": "Ipsum",
-                "url": "/ipsum/"
             }
         ]
     },
@@ -31,7 +23,7 @@
                 "new_window": true
             }
         ],
-        "has_social": true,
+        "has_social": false,
         "social_links": [
             {
                 "label": "Twitter",
@@ -60,5 +52,5 @@
             }
         ]
     },
-    "title": "Stackbit Vanilla Theme"
+    "title": "Bioinformatics Class"
 }

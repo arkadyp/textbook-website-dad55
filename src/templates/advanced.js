@@ -20,6 +20,9 @@ export default class Advanced extends React.Component {
             <Layout {...this.props}>
                 {_.map(_.get(this.props, 'pageContext.frontmatter.sections', null), (section, section_idx) => {
                     let component = _.upperFirst(_.camelCase(_.get(section, 'type', null)));
+                    console.log('>>>>>>>>>>>>');
+                    console.log(components);
+                    console.log(component);
                     let Component = components[component];
                     return (
                         <Component key={section_idx} {...this.props} section={section} site={this.props.pageContext.site} />

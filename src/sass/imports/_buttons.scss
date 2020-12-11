@@ -17,7 +17,7 @@ button,
         border: none;
     }
 
-    &:not(.logo):not(.nav-link) {
+    &:not(.logo):not(.nav-link):not(.animated-link) {
         font-weight: inherit;
         position: relative;
 
@@ -58,5 +58,26 @@ button,
 
     &:after {
         display: none;
+    }
+}
+
+// https://coolors.co/383d3b-eee5e9-7c7c7c-92dce5-52dee5
+
+.animated-link {
+    &:not(.logo):not(.nav-link) {
+        color: #7E423E;
+        font-weight: 500;
+        text-decoration: none;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size cubic-bezier(0,.5,0,1) 0.3s;
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            background-size: 100% 2px;
+        }
     }
 }
