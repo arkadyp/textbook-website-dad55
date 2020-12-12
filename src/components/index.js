@@ -5,6 +5,8 @@ import SectionHero from './SectionHero';
 import SectionPosts from './SectionPosts';
 import Layout from './Layout';
 import Universities from './Universities';
+import GuestLectures from './GuestLectures';
+import IndependentResearchProject from './IndependentResearchProject';
 
 export {
     Footer,
@@ -14,6 +16,8 @@ export {
     SectionPosts,
     Layout,
     Universities,
+    GuestLectures,
+    IndependentResearchProject,
 };
 
 export default {
@@ -24,4 +28,6 @@ export default {
     SectionPosts,
     Layout,
     Universities,
+    GuestLectures,
+    IndependentResearchProject,
 };

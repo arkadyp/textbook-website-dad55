@@ -9,7 +9,8 @@ button,
 
     &:visited,
     &:focus,
-    &:hover {
+    &:hover
+    &:not(.email-link) {
         color: black;
         text-decoration: none;
         outline: none;
@@ -17,7 +18,7 @@ button,
         border: none;
     }
 
-    &:not(.logo):not(.nav-link):not(.animated-link) {
+    &:not(.logo):not(.nav-link):not(.animated-link):not(:email-link) {
         font-weight: inherit;
         position: relative;
 
@@ -65,7 +66,7 @@ button,
 
 .animated-link {
     &:not(.logo):not(.nav-link) {
-        color: #7E423E;
+        color: #6e6dec;
         font-weight: 500;
         text-decoration: none;
         background-image: linear-gradient(currentColor, currentColor);
@@ -78,6 +79,40 @@ button,
         &:focus {
             text-decoration: none;
             background-size: 100% 2px;
+        }
+    }
+
+    &.large {
+        font-size: 1.8rem;
+    }
+}
+
+.email-link {
+    color: #6e6dec;
+    font-weight: 600;
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        background: $blue;
+        height: 4px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        opacity: .5;
+        z-index: -1;
+    }
+    &:visited,
+    &:focus,
+    &:hover {
+        color: midnightblue
+    }
+    &:hover,
+    &:focus {
+        &:after {
+            bottom: 0;
+            opacity: 1;
+            height: 2px;
         }
     }
 }

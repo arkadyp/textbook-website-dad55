@@ -8,6 +8,11 @@ export default class SectionContent extends React.Component {
         let section = _.get(this.props, 'section', null);
         return (
             <section id={_.get(section, 'section_id', null)} className="content">
+                {_.get(section, 'title', null) && (
+                <h2 className="copy">
+                    {_.get(section, 'title', null)}
+                </h2>
+                )}
                 {_.get(section, 'image', null) && (<img className="inline-image" src={withPrefix(_.get(section, 'image', null))}/>)}
                 {_.get(section, 'content', null) && (
                 <div className="copy">

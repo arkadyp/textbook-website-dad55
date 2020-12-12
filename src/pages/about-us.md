@@ -1,0 +1,4 @@
+---
+title: Instructors
+template: instructors
+---

@@ -7,9 +7,7 @@ sections:
     subtitle: "Winter 2021"
     image: images/textbook.jpg
 
-  - title: Intro
-    section_id: intro
-    type: section_content
+  - type: section_content
     content: >-
       The textbook
       <a target="_blank" class="animated-link" href="https://www.bioinformaticsalgorithms.org/">Bioinformatics Algorithms: an Active Learning Approach</a>
@@ -22,18 +20,8 @@ sections:
       participating universities and to facilitate the exchange of the course materials and pedagogical
       ideas between various instructors.
 
-  - type: universities
-    images:
-      - "images/carnegie-mellon.png"
-      - "images/johns-hopkins.png"
-      - "images/princeton.png"
-      - "images/temp.png"
-      - "images/ucsd.png"
-
-  - title: Universities
-    section_id: universities
-    type: section_content
-    image: images/art.svg
+  - type: section_content
+    title: Universities
     content: >-
       In Winter 2021, the multi-university class will include classes at Carnegie Mellon University, Johns
       Hopkins University, Princeton University, Saint Petersburg University, and University of
@@ -46,4 +34,52 @@ sections:
       facilitate communication between students and instructors from various universities. For
       example, if you decide to post a question on Ed, it can be answered by a student or a professor
       from other universities.
+
+      <br>
+      <br>
+
+      Learrn more about the Winter 2021 instructors on our
+      <a class="animated-link" href="/about-us">About Us page</a>.
+
+  - type: universities
+    images:
+      - "images/carnegie-mellon.png"
+      - "images/johns-hopkins.png"
+      - "images/princeton.png"
+      - "images/temp.png"
+      - "images/ucsd.png"
+
+  - type: guest_lectures
+    title: Guest Lectures
+    content: >-
+      Guest lectures. Each instructor in our multi-university class will share some educational
+      materials to benefit students at all universities. In addition to teaching independent courses at
+      their home universities, the instructors will give the following guest lectures for students at all
+      universities:
+    lectures:
+      -
+        author: "Phillip Compeau (CMU)"
+        lecture: "How Do We Measure Gene Expression: transcript assembly and quantification"
+      -
+        author: Alexey Gurevich (SPBU)
+        lecture: "How Do We Measure Gene Expression: transcript assembly and quantification"
+      -
+        author: "Pavel Pevzner (UCSD)"
+        lecture: "The long-read revolution in genome sequencing"
+      -
+        author: "Ben Raphael (Princeton)"
+        lecture: "TBD"
+      -
+        author: "Rachel Sherman (JHU)"
+        lecture: "What’s in a Mutt: An Intro to Dog DNA Analysis"
+
+  - type: independent_research_project
+
+  - type: section_content
+    title: Questions / Comments?
+    content: >-
+      This is our first experience in running a multi-university course and we anticipate that we may
+      overlook something – please do not hesitate to
+      <a class="email-link" href="mailto:ppevzner@ucsd.edu">send us your suggestions</a>
+      and help us to succeed!
 ---

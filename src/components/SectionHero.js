@@ -15,7 +15,7 @@ export default class SectionHero extends React.Component {
                     <h1>{_.get(section, 'title', null)}</h1>
                     )}
                     {_.get(section, 'subtitle', null) && (
-                    <div>{markdownify(_.get(section, 'subtitle', null))}</div>
+                    <h3>{_.get(section, 'subtitle', null)}</h3>
                     )}
                 </div>
                 )}

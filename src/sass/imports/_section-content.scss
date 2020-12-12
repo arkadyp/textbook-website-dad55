@@ -9,7 +9,7 @@
   column-gap: 12px;
   justify-content: center;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 
   > img {
     width: 100%;
@@ -19,7 +19,6 @@
     display: none;
   }
 }
-
 
 .university-images-row-mobile {
   display: none;
@@ -36,3 +35,45 @@
     }
   }
 };
+
+.video-wrapper {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.instructor-container {
+  display: flex;
+  margin-bottom: 24px;
+  font-size: 1.4rem;
+
+  & > img {
+    width: 25%;
+    margin-right: 24px;
+  }
+
+  .department {
+    margin-top: 12px;
+  }
+
+  .university {
+    margin-top: 8px;
+  }
+
+  @media screen and (max-width: $mobile) {
+    flex-direction: column;
+    & > img {
+      width: 50%;
+      margin-bottom: 24px;
+    }
+  }
+}
