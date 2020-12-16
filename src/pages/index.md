@@ -43,11 +43,11 @@ sections:
 
   - type: universities
     images:
-      - "images/carnegie-mellon.png"
-      - "images/johns-hopkins.png"
-      - "images/princeton.png"
-      - "images/temp.png"
-      - "images/ucsd.png"
+      - "images/school_logos/carnegie-mellon.png"
+      - "images/school_logos/johns-hopkins.png"
+      - "images/school_logos/princeton.png"
+      - "images/school_logos/st-petersburg.png"
+      - "images/school_logos/ucsd.png"
 
   - type: guest_lectures
     title: Guest Lectures
