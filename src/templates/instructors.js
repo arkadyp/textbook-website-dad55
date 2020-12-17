@@ -21,37 +21,37 @@ const instructors = [{
   department: 'Department of Computational Biology',
   university: 'Carnegie Mellon University',
   link: 'http://compeau.cbd.cmu.edu/',
-  img: 'images/phillip-compeau.jpg',
+  img: 'images/instructors/phillip-compeau.jpg',
 }, {
   name: 'Alexey Gurevich',
   department: 'Center for Algorithmic Biotechnology',
   university: 'Saint Petersburg University',
   link: 'https://cab.spbu.ru/employees/alexey-gurevich/',
-  img: 'images/alexey_gurevich.jpg',
+  img: 'images/instructors/alexey_gurevich.jpg',
 }, {
   name: 'Pavel Pevzner',
   department: 'Department of Computer Science and Engineering',
   university: 'University of California at San Diego',
   link: 'https://bioalgorithms.ucsd.edu/',
-  img: 'images/pavel_pevzner.png',
+  img: 'images/instructors/pavel_pevzner.png',
 }, {
   name: 'Ben Raphael',
   department: 'Computer Science Department',
   university: 'Princeton University',
   link: 'http://compbio.cs.brown.edu/',
-  img: 'images/ben-raphael.jpg',
+  img: 'images/instructors/ben-raphael.jpg',
 }, {
   name: 'Steven Salzberg',
   department: 'Departments of Biomedical Engineering, Computer Science, and Biostatistics',
   university: 'Johns Hopkins University',
   link: 'https://salzberg-lab.org/',
-  img: 'images/steven-salzberg.jpg',
+  img: 'images/instructors/steven-salzberg.jpg',
 }, {
   name: 'Rachel Sherman',
   department: 'Departments of Biomedical Engineering, Computer Science, and Biostatistics',
   university: 'Johns Hopkins University',
   link: 'https://salzberg-lab.org/',
-  img: 'images/rachel-sherman.png',
+  img: 'images/instructors/rachel-sherman.png',
 }];
 
 const Instructor = ({
