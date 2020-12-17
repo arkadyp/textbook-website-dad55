@@ -1,7 +1,7 @@
 {
     "description": "Homepage for multi-university bioinformatics class",
     "header": {
-        "title": "Multi-University Bioinformatics",
+        "title": "Multi-University Bioinformatics Class",
         "has_nav": true,
         "nav_links": [
             {
