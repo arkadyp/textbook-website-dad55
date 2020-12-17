@@ -95,7 +95,7 @@ const Instructors = (props) => {
               simultaneously offered by the following instructors:
             </p>
             <section>
-              {instructors.map((data) => <Instructor {...data}/>)}
+              {instructors.map((data) => <Instructor key={data.name} {...data}/>)}
             </section>
           </div>
       </section>

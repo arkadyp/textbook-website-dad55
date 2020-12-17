@@ -7,6 +7,7 @@ sections:
     subtitle: "Winter 2021"
 
   - type: section_content
+    image: "images/textbook.jpg"
     content: >-
       The textbook
       <a target="_blank" class="animated-link" href="https://www.bioinformaticsalgorithms.org/">Bioinformatics Algorithms: an Active Learning Approach</a>

@@ -13,12 +13,14 @@ export default class SectionContent extends React.Component {
                     {_.get(section, 'title', null)}
                 </h2>
                 )}
-                {_.get(section, 'image', null) && (<img className="inline-image" src={withPrefix(_.get(section, 'image', null))}/>)}
-                {_.get(section, 'content', null) && (
-                <div className="copy">
-                    {markdownify(_.get(section, 'content', null))}
+                <div className="section-content-container">
+                    {_.get(section, 'image', null) && (<img className="inline-image" src={withPrefix(_.get(section, 'image', null))}/>)}
+                    {_.get(section, 'content', null) && (
+                    <div className="copy">
+                        {markdownify(_.get(section, 'content', null))}
+                    </div>
+                    )}
                 </div>
-                )}
             </section>
         );
     }

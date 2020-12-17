@@ -9,6 +9,8 @@ html {
     box-sizing: inherit;
 }
 
+
+
 body {
     min-height: 100%;
 }
@@ -23,11 +25,27 @@ section {
 
 .wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.main-wrapper {
     max-width: 848px;
     min-height: 100vh;
     padding: 0 $small;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-sidebar {
+    flex-grow: 1;
+    background: rgb(255,244,221);
+    background: linear-gradient(90deg, rgba(255,244,221,0.758140756302521) 0%, rgba(255,255,255,1) 100%);
+}
+
+.right-sidebar {
+    flex-grow: 1;
+    background: rgb(255,244,221);
+    background: linear-gradient(270deg, rgba(255,244,221,0.758140756302521) 0%, rgba(255,255,255,1) 100%);
 }
 
 .container {
@@ -71,16 +89,24 @@ blockquote {
 .content {
     margin: 0 0 1rem 0;
 
-    .inline-image {
-        float: left;
-        max-width: calc(50% - 1rem);
-        margin: 1rem 1.5rem 1rem 0;
+    .section-content-container {
+        display: flex;
+        flex-direction: row-reverse;
 
-        @media screen and (max-width: $mobile) {
+        @media screen and (max-width: $tabletMax) {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .inline-image {
+        max-width: calc(35% - 1rem);
+        max-height: 350px;
+        margin: 1rem 0 0 1.5rem;
+
+        @media screen and (max-width: $tabletMax) {
             display: block;
             max-width: 100%;
-            margin: 1rem 0;
-            width: 100%;
+            margin: 1rem auto;
         }
     }
 
