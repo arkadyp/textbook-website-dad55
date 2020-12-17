@@ -5,7 +5,6 @@ sections:
     type: section_hero
     title: "Multi-University Bioinformatics Class"
     subtitle: "Winter 2021"
-    image: images/textbook.jpg
 
   - type: section_content
     content: >-
@@ -35,12 +34,6 @@ sections:
       example, if you decide to post a question on Ed, it can be answered by a student or a professor
       from other universities.
 
-      <br>
-      <br>
-
-      Learrn more about the Winter 2021 instructors on our
-      <a class="animated-link" href="/about-us">About Us page</a>.
-
   - type: universities
     images:
       - "images/school_logos/carnegie-mellon.png"
@@ -48,6 +41,23 @@ sections:
       - "images/school_logos/princeton.png"
       - "images/school_logos/st-petersburg.png"
       - "images/school_logos/ucsd.png"
+
+  - type: section_content
+    content: >-
+      This educational collaboration will be directed by Professor
+      <a class="animated-link" target="_blank" href="https://niema.net/">Niema Moshiri</a>.
+      at University of
+      California at San Diego, an expert in online education technologies (see his TEDx talk
+      <a class="animated-link" target="_blank" href="https://www.edtech.events/the-era-of-online-learning-niema-moshiri-tedxucsd/">The Era of Online Learning</a>.
+      ). Dr. Moshiri will analyze the students’ experiences across various universities,
+      study benefits and limitations of a multi-university class, and will evaluate whether this
+      endeavor should be further scaled in the following years.
+
+      <br>
+      <br>
+
+      Learrn more about the Winter 2021 instructors on our
+      <a class="animated-link" href="/about-us">About Us page</a>.
 
   - type: guest_lectures
     title: Guest Lectures
