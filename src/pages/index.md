@@ -79,7 +79,7 @@ sections:
         lecture: "The long-read revolution in genome sequencing"
       -
         author: "Ben Raphael (Princeton)"
-        lecture: "TBD"
+        lecture: "Cancer Evolution"
       -
         author: "Rachel Sherman (JHU)"
         lecture: "What’s in a Mutt: An Intro to Dog DNA Analysis"
