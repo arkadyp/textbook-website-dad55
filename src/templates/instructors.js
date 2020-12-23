@@ -50,7 +50,7 @@ const instructors = [{
   name: 'Rachel Sherman',
   department: 'Departments of Biomedical Engineering, Computer Science, and Biostatistics',
   university: 'Johns Hopkins University',
-  link: 'https://salzberg-lab.org/',
+  link: 'http://ccb.jhu.edu/people/rsherman/',
   img: 'images/instructors/rachel-sherman.png',
 }];
 
