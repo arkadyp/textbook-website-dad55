@@ -9,17 +9,17 @@ const Universities = ({section}) => {
         <div>
             <div className="university-images-grid">
                 {imageData.map(({image, alt}) => (
-                    <img src={withPrefix(image)} alt={alt}/>
+                    <img src={withPrefix(image)} alt={alt} key={image}/>
                 ))}
             </div>
             <div className="university-images-row-mobile">
                 {imageData.slice(0, 3).map(({image, alt}) => (
-                    <img src={withPrefix(image)} alt={alt}/>
+                    <img src={withPrefix(image)} alt={alt} key={image}/>
                 ))}
             </div>
             <div className="university-images-row-mobile">
                 {imageData.slice(3, 5).map(({image, alt}) => (
-                    <img src={withPrefix(image)} alt={alt}/>
+                    <img src={withPrefix(image)} alt={alt} key={image}/>
                 ))}
             </div>
         </div>
