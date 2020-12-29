@@ -46,6 +46,7 @@ const IndependentResearchProject = ({section}) => {
           research-focused “HiFiAssembler” project aimed at genome assembly using the newly emerged:&nbsp;
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.pacb.com/smrt-science/smrt-sequencing/hifi-reads-for-highly-accurate-long-read-sequencing/"
             className="animated-link"
           >
@@ -61,6 +62,7 @@ const IndependentResearchProject = ({section}) => {
           it already contributed to the COMPLETE human genome assembly by the&nbsp;
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.pacb.com/smrt-science/smrt-sequencing/hifi-reads-for-highly-accurate-long-read-sequencing/"
             className="animated-link"
           >
@@ -70,6 +72,7 @@ const IndependentResearchProject = ({section}) => {
           DRAFT human genome was first assembled by the&nbsp;
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.genome.gov/human-genome-project"
             className="animated-link"
           >
@@ -94,6 +97,7 @@ const IndependentResearchProject = ({section}) => {
             <li>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://genome.cshlp.org/content/early/2020/08/14/gr.263566.120"
                 className="animated-link"
               >
@@ -104,6 +108,7 @@ const IndependentResearchProject = ({section}) => {
             <li>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://arxiv.org/abs/2008.01237"
                 className="animated-link"
               >
@@ -114,6 +119,7 @@ const IndependentResearchProject = ({section}) => {
             <li>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.nature.com/articles/s41592-020-00971-x"
                 className="animated-link"
               >

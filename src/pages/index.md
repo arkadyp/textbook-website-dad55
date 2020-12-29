@@ -10,10 +10,10 @@ sections:
     image: "images/textbook.jpg"
     content: >-
       The textbook
-      <a target="_blank" class="animated-link" href="https://www.bioinformaticsalgorithms.org/">Bioinformatics Algorithms: an Active Learning Approach</a>
+      <a target="_blank" rel="noreferrer" class="animated-link" href="https://www.bioinformaticsalgorithms.org/">Bioinformatics Algorithms: an Active Learning Approach</a>
       has now
       been adopted by
-      <a target="_blank" class="animated-link" href="https://bioalgorithms.ucsd.edu/pubs_books.html">140+ instructors from 40+ countries</a>.
+      <a target="_blank" rel="noreferrer" class="animated-link" href="https://bioalgorithms.ucsd.edu/pubs_books.html">140+ instructors from 40+ countries</a>.
       Since all these instructors cover similar
       materials, we have decided to launch a multi-university bioinformatics class that will bring
       multiple instructors together to enhance the educational experience of students across all
@@ -29,7 +29,7 @@ sections:
       own schedule, policies, HWs, exams, and grading. However, students in each class will be
       offered an opportunity to use various materials in the multi-university class as specified by the
       individual instructors. The multi-university class will use the
-      <a target="_blank" class="animated-link" href="https://us.edstem.org/">Ed Digital Learning platform</a>
+      <a target="_blank" rel="noreferrer" class="animated-link" href="https://us.edstem.org/">Ed Digital Learning platform</a>
       to
       facilitate communication between students and instructors from various universities. For
       example, if you decide to post a question on Ed, it can be answered by a student or a professor
@@ -46,10 +46,10 @@ sections:
   - type: section_content
     content: >-
       This educational collaboration will be directed by Professor
-      <a class="animated-link" target="_blank" href="https://niema.net/">Niema Moshiri</a>.
+      <a class="animated-link" target="_blank" rel="noreferrer" href="https://niema.net/">Niema Moshiri</a>.
       at University of
       California at San Diego, an expert in online education technologies (see his TEDx talk
-      <a class="animated-link" target="_blank" href="https://www.edtech.events/the-era-of-online-learning-niema-moshiri-tedxucsd/">The Era of Online Learning</a>.
+      <a class="animated-link" target="_blank" rel="noreferrer" href="https://www.edtech.events/the-era-of-online-learning-niema-moshiri-tedxucsd/">The Era of Online Learning</a>.
       ). Dr. Moshiri will analyze the students’ experiences across various universities,
       study benefits and limitations of a multi-university class, and will evaluate whether this
       endeavor should be further scaled in the following years.

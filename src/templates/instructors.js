@@ -67,6 +67,7 @@ const Instructor = ({
       <a
         className="animated-link large"
         target="_blank"
+        rel="noreferrer"
         href={link}
       >
         {name}
