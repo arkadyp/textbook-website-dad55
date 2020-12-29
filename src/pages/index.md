@@ -8,6 +8,7 @@ sections:
 
   - type: section_content
     image: "images/textbook.jpg"
+    image-alt: "textbook"
     content: >-
       The textbook
       <a target="_blank" rel="noreferrer" class="animated-link" href="https://www.bioinformaticsalgorithms.org/">Bioinformatics Algorithms: an Active Learning Approach</a>
@@ -36,12 +37,22 @@ sections:
       from other universities.
 
   - type: universities
-    images:
-      - "images/school_logos/carnegie-mellon.png"
-      - "images/school_logos/johns-hopkins.png"
-      - "images/school_logos/princeton.png"
-      - "images/school_logos/st-petersburg.png"
-      - "images/school_logos/ucsd.png"
+    imageData:
+      -
+        image: "images/school_logos/carnegie-mellon.png"
+        alt: "Carnegie Mellon"
+      -
+        image: "images/school_logos/johns-hopkins.png"
+        alt: "Johns Hopkins"
+      -
+        image: "images/school_logos/princeton.png"
+        alt: "Princeton"
+      -
+        image: "images/school_logos/st-petersburg.png"
+        alt: "St. Petersburg"
+      -
+        image: "images/school_logos/ucsd.png"
+        alt: "UCSD"
 
   - type: section_content
     content: >-

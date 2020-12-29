@@ -62,7 +62,7 @@ const Instructor = ({
   department,
 }) => (
   <div className="instructor-container">
-    <img src={withPrefix(img)}/>
+    <img src={withPrefix(img)} alt={name}/>
     <div>
       <a
         className="animated-link large"

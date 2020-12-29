@@ -14,7 +14,13 @@ export default class SectionContent extends React.Component {
                 </h2>
                 )}
                 <div className="section-content-container">
-                    {_.get(section, 'image', null) && (<img className="inline-image" src={withPrefix(_.get(section, 'image', null))}/>)}
+                    {_.get(section, 'image', null) &&
+                        <img
+                            className="inline-image"
+                            src={withPrefix(_.get(section, 'image', null))}
+                            alt={_.get(section, "image-alt", "")}
+                        />
+                    }
                     {_.get(section, 'content', null) && (
                     <div className="copy">
                         {markdownify(_.get(section, 'content', null))}

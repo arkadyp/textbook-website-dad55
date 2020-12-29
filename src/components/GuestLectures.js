@@ -19,7 +19,7 @@ const GuestLectures = ({section}) => {
           )}
           <ul>
             {lectures.map(({author, lecture}) => (
-              <li>
+              <li key={author}>
                 <span className="bold">{author}</span>
                 : {lecture}
               </li>
