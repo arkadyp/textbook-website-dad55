@@ -1,8 +1,5 @@
 import React from 'react';
 
-import withPrefix from '../utils/withPrefix';
-import { Layout } from '../components';
-
 const NotFoundPage = () => {
     return (
       <section className="not-found-container">
