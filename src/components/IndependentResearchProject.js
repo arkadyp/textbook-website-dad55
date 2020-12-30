@@ -110,7 +110,9 @@ const IndependentResearchProject = ({section}) => {
           encourage you to form multi-university teams working on the HiFiAssembler project (to
           promote interactions between students from different universities) but teams from a single
           university are also OK. However, we suggest that each team includes at most 2-3 students from
-          the same university (but you can have more students in a multi-university team).&nbsp;
+          the same university (but you can have more students in a multi-university team).
+        </p>
+        <p>
           <a
             className="animated-link"
             target="_blank"
